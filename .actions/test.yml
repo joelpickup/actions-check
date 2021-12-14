@@ -1,0 +1,14 @@
+# It could be worth replacing the below if CloudFlare Pages ever supports this natively
+name: Test
+
+on:
+  check_run:
+    types: [completed]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Log 
+        run: |
+        echo "${{ asJSON(github) }}"
