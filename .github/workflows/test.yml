@@ -9,6 +9,6 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: Log 
+      - name: Log
         run: |
-        echo "${{ asJSON(github) }}"
+          echo "${{ asJSON(github) }}"

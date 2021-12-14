@@ -1,0 +1,19 @@
+{
+  "name": "actions-check",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'yeah!'; exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joelpickup/actions-check.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joelpickup/actions-check/issues"
+  },
+  "homepage": "https://github.com/joelpickup/actions-check#readme"
+}
